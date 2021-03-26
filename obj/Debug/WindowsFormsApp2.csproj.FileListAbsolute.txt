@@ -1,0 +1,17 @@
+C:\Users\Akasu\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\Akasu\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\Akasu\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\Akasu\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csprojAssemblyReference.cache
+C:\Users\Akasu\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+C:\Users\Akasu\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\Akasu\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+C:\Users\Akasu\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+C:\Users\Akasu\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\Akasu\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\Akasu\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\SharpGL.dll
+C:\Users\Akasu\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\SharpGL.SceneGraph.dll
+C:\Users\Akasu\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\SharpGL.WinForms.dll
+C:\Users\Akasu\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\SharpGL.xml
+C:\Users\Akasu\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\SharpGL.SceneGraph.xml
+C:\Users\Akasu\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\SharpGL.WinForms.xml
+C:\Users\Akasu\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CopyComplete
