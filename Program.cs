@@ -20,8 +20,9 @@ namespace WindowsFormsApp2
         [STAThread]
         static void Main()
         {
-            graphics.SmoothingMode = SmoothingMode.AntiAlias;
             graphics.Clear(Color.Black);
+
+            graphics.SmoothingMode = SmoothingMode.HighSpeed;
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

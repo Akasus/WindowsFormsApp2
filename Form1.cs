@@ -67,8 +67,7 @@ namespace WindowsFormsApp2
             while (true)
             {
                 sw.Restart();
-                ScreenUpdate();
-                await Task.Delay(TimeSpan.FromMilliseconds(0.5));
+                await Run();
                 sw.Stop();
                 DeltaTime = (float)sw.Elapsed.TotalSeconds;
                 
@@ -76,25 +75,33 @@ namespace WindowsFormsApp2
 
         }
 
+        private async Task Run()
+        {
+            ScreenUpdate();
+            await Task.Delay(TimeSpan.FromMilliseconds(0.5));
+        }
+
+
+        private object Locker;
 
         private void FixedUpdate()
         {
-           
-            Program.graphics.Clear(Color.Black);
-            label1.Text = ((double)GC.GetTotalMemory(false)/ 1024 / 1024).ToString("N3") + "MB";
-            c.velocity += FixedDeltaTime * (Vector2.down * 15f);
+            
+                label1.Text = (((double)GC.GetTotalMemory(false)/ 1024 )/1024 ).ToString("N3") + "MB";
+                c.velocity += (FixedDeltaTime) * (Vector2.down * 9.81f);
+                label4.Text = "Velo " + c.velocity;
+                label5.Text = "MPF " + c.velocity * FixedDeltaTime;
+                c.Center -= FixedDeltaTime * c.velocity;
             if (c.Center.y > Center.y * 2 + c.Radius) c.Center = new Vector2(c.Center.x, -c.Radius * 2);
-
         }
 
         private void ScreenUpdate()
         {
             
-            // pictureBox1.Image?.Dispose();
-            c.Center -= DeltaTime * c.velocity;
-            c.Render();
-            pictureBox1.Image = (Bitmap)Program.Screen.Clone();
-            
+                Program.graphics.Clear(Color.Black);
+                c.Render();
+                // pictureBox1.Image?.Dispose();
+                pictureBox1.Image = Program.Screen;
             
 
         }
@@ -111,6 +118,11 @@ namespace WindowsFormsApp2
 
 
             gl.PolygonMode(FaceMode.Front,PolygonMode.Filled);
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
